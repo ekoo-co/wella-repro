@@ -24,6 +24,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <script
+        src="https://app.ekoo.co/widgets/widget-4.0.0-standalone.js"
+        async
+      ></script>
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
         {children}
       </body>
