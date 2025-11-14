@@ -7,7 +7,7 @@ interface EkooWidgetProps {
   language?: string;
 }
 
-const WEBSITE_ID = "";
+const WEBSITE_ID = "05da8b3d-f87f-4342-ab5e-ca92d305cce2";
 
 export function EkooWidget({ productId, language = "fr" }: EkooWidgetProps) {
   const hostRef = useRef<HTMLDivElement | null>(null);
